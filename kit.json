@@ -1,0 +1,218 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "site-generator-speed-01-run-20261122",
+  "phase": "dev",
+  "bundle_sha256": "2850d1b881ffae49db8c86796bfdb8d111a2b7ee01242531c5c52511c2ac95c0",
+  "dataset_sha256": null,
+  "harness_version": "harness@56496825e74dfb36d5297c4b8e1f171da6fbf381b5a6b5498208e2cfb8096b88 node v26.13.1",
+  "scorer_version": "scorer@3ddc79fe6939ec2eb6ab2dcd19617cba8edc72dbfffb7902726e81c18acd355a program@98d5f96f07e6794d494e0d1f51336fc4ee67ec10f2bcb666d3c28ddd45a6074b",
+  "pricing_rev": "34d1007cd9dd19a1d751a8b87e79e95c181a94b3e791b1a546de6dac11435dbe",
+  "protocol": "agent-fun/program/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "1b59129199904da3eac2b4998ca8b934b835deb3a3948dd73d4c42b7e1417345",
+      "size": 61155
+    },
+    {
+      "path": "baselines/makefun-site/SOURCE.txt",
+      "sha256": "2259cfbac02038fb4f3ce70f4dc63c7fde91d661ea5e0b022e9818dd48bd2328",
+      "size": 1116
+    },
+    {
+      "path": "baselines/makefun-site/main.ts",
+      "sha256": "0ee2692ecfa6d5bedc3adb1248a047f522382010816852e8c80e93b19ae60856",
+      "size": 1579
+    },
+    {
+      "path": "baselines/makefun-site/package.json",
+      "sha256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a",
+      "size": 23
+    },
+    {
+      "path": "baselines/makefun-site/solve.js",
+      "sha256": "3a3c97b303444669cb2cb7cff6b16a8066222030e32de29e86e84c21bbaea708",
+      "size": 807
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/LICENSE",
+      "sha256": "e3b276fea38dd0896be15e76449046e9f6730ba2299f3149f478aa156d5c5cc4",
+      "size": 1065
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/NOTICE",
+      "sha256": "7a14ebda1538552bc73b6e8e21994b6901fde4790af69e2be6e52a850e0b7b24",
+      "size": 5278
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/README.md",
+      "sha256": "45acb9672be5468f91f6eacd1391d04b080c288d0d152036eb5a71158ac90f29",
+      "size": 11080
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/index.js",
+      "sha256": "1e30861ee631589ccb94f24492859669af75a7e4be442757d360ca436eb9dc1f",
+      "size": 11152
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/lib/frontmatter.js",
+      "sha256": "4913a12087eae7dd2259f6f6e067200c464ba4c385d4f7fb5111fe54a1996763",
+      "size": 4564
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/lib/markdown.js",
+      "sha256": "ce4b968383362eafa695efd827f9745e5b359aad4d8bfab023072bc884c0520c",
+      "size": 7766
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/lib/template.js",
+      "sha256": "41f8e51bec3e23e8f77273f9ca2ebf93bb8cc47b18a5cdb0331a06d49b3ef500",
+      "size": 7695
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/lib/text.js",
+      "sha256": "79c9ab7e8c985dd3b05b642a6d655b6b84c2366e56f0cbfc65aaea85098e9789",
+      "size": 1922
+    },
+    {
+      "path": "baselines/makefun-site/vendor/makefun-site/package.json",
+      "sha256": "8cbfb322ef46c755017a70d03cfda995c96c7a11145317dc37500bae7b659052",
+      "size": 220
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "4ce2e4afdd22ba3f0a465ba941771cc5c5110d4dd77b1ef479df01769f8df1ce",
+      "size": 17159124
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "24c5afb0763ff96dd092a88869fee664366b444f1147e57527cc5fc1b54ab124",
+      "size": 35
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "7efc4c409ca3748f8a083e88100e10ffd6ecefd768a525191f6f9d43dfa6233b",
+      "size": 15661
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "eba374f5df25caa25497a202084fea33da010e1b7f1522868bef88dcb0f68309",
+      "size": 20688
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "a1eda08964b94228fa7df94ccce03a26e05035ced10710ee0b10d7d84988316a",
+      "size": 20688
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "89982f05ae36678d087f437c3798594625256332901e20151fc285556b366b6f",
+      "size": 3051870
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "1ef4c4de7c92dfc9e30a1f6408bcf473cd35c03b7fb36a199f206cfc4eecd07c",
+      "size": 85
+    },
+    {
+      "path": "practice/input/cases.json",
+      "sha256": "1fbb3ddefdaf3802ac0ab6facabb87e31f61160c26f6f130483ff6b500f10d80",
+      "size": 2945523
+    },
+    {
+      "path": "practice/reference/expected.json",
+      "sha256": "8e39dfc2ef2ec9a2307f1b09e94b0e7b706af8a4ba376948fd1937be9128849b",
+      "size": 7446737
+    },
+    {
+      "path": "program/generator/corpus.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "program/generator/draw.ts",
+      "sha256": "a20abef237bb06aff060c0b8a09e87a1594b5f3ac1267daf57d6e89f5a91af75",
+      "size": 4077
+    },
+    {
+      "path": "program/generator/oracle.js",
+      "sha256": "3e744246f8cb6f37856a04c2235c9a986142cf2c76c83f227e5090fcc8aa5f99",
+      "size": 760
+    },
+    {
+      "path": "program/generator/package.json",
+      "sha256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a",
+      "size": 23
+    },
+    {
+      "path": "program/generator/rng.ts",
+      "sha256": "c503dd225a00869c6c2f34e1849ae9e0ca7228f93a5657291d33535fd570d5fd",
+      "size": 2880
+    },
+    {
+      "path": "program/generator/subject/sites.mjs",
+      "sha256": "771647ac1c680da7335c5388c04ba87d736aff5f515a449e3753f9d5500a760f",
+      "size": 22597
+    },
+    {
+      "path": "program/generator/vendor/SOURCE.txt",
+      "sha256": "2259cfbac02038fb4f3ce70f4dc63c7fde91d661ea5e0b022e9818dd48bd2328",
+      "size": 1116
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/LICENSE",
+      "sha256": "e3b276fea38dd0896be15e76449046e9f6730ba2299f3149f478aa156d5c5cc4",
+      "size": 1065
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/NOTICE",
+      "sha256": "7a14ebda1538552bc73b6e8e21994b6901fde4790af69e2be6e52a850e0b7b24",
+      "size": 5278
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/README.md",
+      "sha256": "45acb9672be5468f91f6eacd1391d04b080c288d0d152036eb5a71158ac90f29",
+      "size": 11080
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/index.js",
+      "sha256": "1e30861ee631589ccb94f24492859669af75a7e4be442757d360ca436eb9dc1f",
+      "size": 11152
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/lib/frontmatter.js",
+      "sha256": "4913a12087eae7dd2259f6f6e067200c464ba4c385d4f7fb5111fe54a1996763",
+      "size": 4564
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/lib/markdown.js",
+      "sha256": "ce4b968383362eafa695efd827f9745e5b359aad4d8bfab023072bc884c0520c",
+      "size": 7766
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/lib/template.js",
+      "sha256": "41f8e51bec3e23e8f77273f9ca2ebf93bb8cc47b18a5cdb0331a06d49b3ef500",
+      "size": 7695
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/lib/text.js",
+      "sha256": "79c9ab7e8c985dd3b05b642a6d655b6b84c2366e56f0cbfc65aaea85098e9789",
+      "size": 1922
+    },
+    {
+      "path": "program/generator/vendor/makefun-site/package.json",
+      "sha256": "8cbfb322ef46c755017a70d03cfda995c96c7a11145317dc37500bae7b659052",
+      "size": 220
+    },
+    {
+      "path": "program/scorer/main.ts",
+      "sha256": "214d56949a367040316e5dd9ddb594bf2e54315690b5f51da0e26ef8afe97ce7",
+      "size": 5881
+    },
+    {
+      "path": "rules/instance.yaml",
+      "sha256": "c63b89d09e60c3147bef7838ac48b5cf513c930b31b999a4f77a3dce4ad37e9c",
+      "size": 1250
+    }
+  ]
+}
